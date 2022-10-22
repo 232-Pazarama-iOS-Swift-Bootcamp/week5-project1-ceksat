@@ -118,7 +118,7 @@ final class OnboardingViewController: UIViewController {
     }
     
     private func goToAuth() {
-        navigationController?.pushViewController(UIViewController(), animated: true)
+        navigationController?.pushViewController(AuthViewController(), animated: true)
     }
 }
 

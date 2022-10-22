@@ -1,5 +1,5 @@
 //
-//  OnboardingView.swift
+//  CSView.swift
 //  Ceksat
 //
 //  Created by Pazarama iOS Bootcamp on 22.10.2022.
@@ -7,24 +7,10 @@
 
 import UIKit
 
-final class OnboardingView: UIView {
-    // MARK: - Properties
-    var image: UIImage? {
-        didSet {
-            imageView.image = image
-        }
-    }
-    
-    var text: String? {
-        didSet {
-            label.text = text
-        }
-    }
+class CSView: UIView {
     
     @IBOutlet private weak var contentView: UIView!
-    @IBOutlet private weak var imageView: UIImageView!
-    @IBOutlet private weak var label: UILabel!
-    
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
@@ -36,7 +22,7 @@ final class OnboardingView: UIView {
     }
     
     private func commonInit() {
-        Bundle.main.loadNibNamed("OnboardingView", owner: self)
+        Bundle.main.loadNibNamed(String(describing: Self.self), owner: self)
         addSubview(contentView)
         contentView.frame = bounds
         contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight]

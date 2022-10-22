@@ -17,9 +17,19 @@
 		ED1829AA2903C3AF00127CA4 /* CeksatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1829A92903C3AF00127CA4 /* CeksatUITests.swift */; };
 		ED1829AC2903C3AF00127CA4 /* CeksatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1829AB2903C3AF00127CA4 /* CeksatUITestsLaunchTests.swift */; };
 		ED1829BF2903CD4C00127CA4 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1829BD2903CD4C00127CA4 /* OnboardingViewController.swift */; };
+		ED4576452903FE3E00ED4E61 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = ED4576442903FE3E00ED4E61 /* SnapKit */; };
+		ED8ED9A82903F5D5005EE518 /* AuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8ED9A72903F5D5005EE518 /* AuthViewController.xib */; };
+		ED8ED9AD2903F68A005EE518 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8ED9AC2903F68A005EE518 /* SignInView.swift */; };
+		ED8ED9AF2903F698005EE518 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8ED9AE2903F698005EE518 /* SignUpView.swift */; };
+		ED8ED9B12903F6A3005EE518 /* SignUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8ED9B02903F6A3005EE518 /* SignUpView.xib */; };
+		ED8ED9B32903F6AD005EE518 /* SignInView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8ED9B22903F6AD005EE518 /* SignInView.xib */; };
+		ED8ED9B62903F701005EE518 /* CSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8ED9B52903F701005EE518 /* CSView.swift */; };
+		ED8ED9B92903F844005EE518 /* CSTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8ED9B82903F843005EE518 /* CSTextView.swift */; };
+		ED8ED9BC2903F85E005EE518 /* CSTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8ED9BB2903F85E005EE518 /* CSTextView.xib */; };
 		EDD8CFF02903CD7100A84A5D /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDD8CFEF2903CD7100A84A5D /* OnboardingViewController.xib */; };
 		EDD8CFF32903D13000A84A5D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8CFF22903D13000A84A5D /* OnboardingView.swift */; };
 		EDD8CFF62903D14700A84A5D /* OnboardingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDD8CFF52903D14700A84A5D /* OnboardingView.xib */; };
+		EDD8CFFA2903F5B700A84A5D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8CFF82903F5B700A84A5D /* AuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +64,18 @@
 		ED1829A92903C3AF00127CA4 /* CeksatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeksatUITests.swift; sourceTree = "<group>"; };
 		ED1829AB2903C3AF00127CA4 /* CeksatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeksatUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ED1829BD2903CD4C00127CA4 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		ED8ED9A72903F5D5005EE518 /* AuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthViewController.xib; sourceTree = "<group>"; };
+		ED8ED9AC2903F68A005EE518 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		ED8ED9AE2903F698005EE518 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		ED8ED9B02903F6A3005EE518 /* SignUpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpView.xib; sourceTree = "<group>"; };
+		ED8ED9B22903F6AD005EE518 /* SignInView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInView.xib; sourceTree = "<group>"; };
+		ED8ED9B52903F701005EE518 /* CSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSView.swift; sourceTree = "<group>"; };
+		ED8ED9B82903F843005EE518 /* CSTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSTextView.swift; sourceTree = "<group>"; };
+		ED8ED9BB2903F85E005EE518 /* CSTextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSTextView.xib; sourceTree = "<group>"; };
 		EDD8CFEF2903CD7100A84A5D /* OnboardingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
 		EDD8CFF22903D13000A84A5D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		EDD8CFF52903D14700A84A5D /* OnboardingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingView.xib; sourceTree = "<group>"; };
+		EDD8CFF82903F5B700A84A5D /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4576452903FE3E00ED4E61 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +153,7 @@
 		ED1829B82903C42F00127CA4 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				ED8ED9B72903F704005EE518 /* Core */,
 				ED1829882903C3AE00127CA4 /* AppDelegate.swift */,
 				ED18298A2903C3AE00127CA4 /* SceneDelegate.swift */,
 				ED1829912903C3AF00127CA4 /* Assets.xcassets */,
@@ -145,6 +166,7 @@
 		ED1829B92903C43E00127CA4 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				EDD8CFF72903F5A300A84A5D /* Auth */,
 				ED1829BB2903CCFE00127CA4 /* Onboarding */,
 				ED1829BA2903C44700127CA4 /* Initial */,
 			);
@@ -172,10 +194,62 @@
 		ED1829BC2903CD0900127CA4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EDD8CFF42903D13400A84A5D /* OnboardingView */,
+				EDD8CFF42903D13400A84A5D /* Onboarding */,
 				EDD8CFEF2903CD7100A84A5D /* OnboardingViewController.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		ED8ED9A92903F5D8005EE518 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EDD8CFF82903F5B700A84A5D /* AuthViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED8ED9AA2903F66F005EE518 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				ED8ED9AC2903F68A005EE518 /* SignInView.swift */,
+				ED8ED9B22903F6AD005EE518 /* SignInView.xib */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		ED8ED9AB2903F674005EE518 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				ED8ED9AE2903F698005EE518 /* SignUpView.swift */,
+				ED8ED9B02903F6A3005EE518 /* SignUpView.xib */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		ED8ED9B42903F6E9005EE518 /* CSKit */ = {
+			isa = PBXGroup;
+			children = (
+				ED8ED9BA2903F84E005EE518 /* CSTextView */,
+				ED8ED9B52903F701005EE518 /* CSView.swift */,
+			);
+			path = CSKit;
+			sourceTree = "<group>";
+		};
+		ED8ED9B72903F704005EE518 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ED8ED9B42903F6E9005EE518 /* CSKit */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		ED8ED9BA2903F84E005EE518 /* CSTextView */ = {
+			isa = PBXGroup;
+			children = (
+				ED8ED9B82903F843005EE518 /* CSTextView.swift */,
+				ED8ED9BB2903F85E005EE518 /* CSTextView.xib */,
+			);
+			path = CSTextView;
 			sourceTree = "<group>";
 		};
 		EDD8CFF12903CD7700A84A5D /* Controller */ = {
@@ -186,13 +260,32 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		EDD8CFF42903D13400A84A5D /* OnboardingView */ = {
+		EDD8CFF42903D13400A84A5D /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
 				EDD8CFF22903D13000A84A5D /* OnboardingView.swift */,
 				EDD8CFF52903D14700A84A5D /* OnboardingView.xib */,
 			);
-			path = OnboardingView;
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		EDD8CFF72903F5A300A84A5D /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				ED8ED9A92903F5D8005EE518 /* Controller */,
+				EDD8CFFC2903F5BB00A84A5D /* View */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		EDD8CFFC2903F5BB00A84A5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED8ED9AB2903F674005EE518 /* SignUp */,
+				ED8ED9AA2903F66F005EE518 /* SignIn */,
+				ED8ED9A72903F5D5005EE518 /* AuthViewController.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +304,9 @@
 			dependencies = (
 			);
 			name = Ceksat;
+			packageProductDependencies = (
+				ED4576442903FE3E00ED4E61 /* SnapKit */,
+			);
 			productName = Ceksat;
 			productReference = ED1829852903C3AE00127CA4 /* Ceksat.app */;
 			productType = "com.apple.product-type.application";
@@ -283,6 +379,9 @@
 				Base,
 			);
 			mainGroup = ED18297C2903C3AE00127CA4;
+			packageReferences = (
+				ED4576432903FE3D00ED4E61 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = ED1829862903C3AE00127CA4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -301,8 +400,12 @@
 			files = (
 				ED1829952903C3AF00127CA4 /* LaunchScreen.storyboard in Resources */,
 				ED1829922903C3AF00127CA4 /* Assets.xcassets in Resources */,
+				ED8ED9B32903F6AD005EE518 /* SignInView.xib in Resources */,
+				ED8ED9BC2903F85E005EE518 /* CSTextView.xib in Resources */,
+				ED8ED9B12903F6A3005EE518 /* SignUpView.xib in Resources */,
 				ED1829902903C3AE00127CA4 /* Main.storyboard in Resources */,
 				EDD8CFF62903D14700A84A5D /* OnboardingView.xib in Resources */,
+				ED8ED9A82903F5D5005EE518 /* AuthViewController.xib in Resources */,
 				EDD8CFF02903CD7100A84A5D /* OnboardingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,10 +432,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED18298D2903C3AE00127CA4 /* ViewController.swift in Sources */,
+				ED8ED9AD2903F68A005EE518 /* SignInView.swift in Sources */,
 				ED1829892903C3AE00127CA4 /* AppDelegate.swift in Sources */,
 				ED18298B2903C3AE00127CA4 /* SceneDelegate.swift in Sources */,
+				ED8ED9AF2903F698005EE518 /* SignUpView.swift in Sources */,
 				EDD8CFF32903D13000A84A5D /* OnboardingView.swift in Sources */,
+				EDD8CFFA2903F5B700A84A5D /* AuthViewController.swift in Sources */,
+				ED8ED9B62903F701005EE518 /* CSView.swift in Sources */,
 				ED1829BF2903CD4C00127CA4 /* OnboardingViewController.swift in Sources */,
+				ED8ED9B92903F844005EE518 /* CSTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +617,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Ceksat/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -536,6 +645,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Ceksat/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -668,6 +778,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED4576432903FE3D00ED4E61 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED4576442903FE3E00ED4E61 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED4576432903FE3D00ED4E61 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ED18297D2903C3AE00127CA4 /* Project object */;
 }

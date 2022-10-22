@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignInView" customModule="Ceksat" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="HHC-FQ-Dao"/>
+                <outlet property="emailTextView" destination="UVB-V8-Idw" id="7yB-Mk-1Mf"/>
+                <outlet property="passwordTextView" destination="iGr-2G-41x" id="37N-yj-wcz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="338"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="If6-Sc-n6a">
+                    <rect key="frame" x="16" y="68.666666666666686" width="343" height="160"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UVB-V8-Idw" customClass="CSTextView" customModule="Ceksat" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="343" height="76"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" priority="250" constant="76" id="U2e-TE-7jX"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="E-Mail"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iGr-2G-41x" customClass="CSTextView" customModule="Ceksat" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="83.999999999999986" width="343" height="76.000000000000014"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" priority="250" constant="76" id="u4S-l4-lzO"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isSecureTextEntry" value="YES"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="Password"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MdG-Tu-CfR">
+                    <rect key="frame" x="152.33333333333334" y="16" width="70.333333333333343" height="28.666666666666671"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="JC4-qc-m6e">
+                    <rect key="frame" x="16" y="244.66666666666666" width="343" height="77.333333333333343"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xaS-lj-3q3">
+                            <rect key="frame" x="0.0" y="0.0" width="343" height="35"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Forgot your password?"/>
+                            <connections>
+                                <action selector="didTapForgotPasswordButton:" destination="-1" eventType="touchUpInside" id="jfm-v6-vCz"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICg-yR-P8g">
+                            <rect key="frame" x="0.0" y="43.000000000000028" width="343" height="34.333333333333343"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Don't you have an account?"/>
+                            <connections>
+                                <action selector="didTapDoYouHaveAnAccountButton:" destination="-1" eventType="touchUpInside" id="mO4-UF-kEL"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="If6-Sc-n6a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="L1k-9g-8dX"/>
+                <constraint firstItem="MdG-Tu-CfR" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="LwV-CD-E9e"/>
+                <constraint firstAttribute="trailing" secondItem="JC4-qc-m6e" secondAttribute="trailing" constant="16" id="QX8-0a-6wb"/>
+                <constraint firstItem="JC4-qc-m6e" firstAttribute="top" secondItem="If6-Sc-n6a" secondAttribute="bottom" constant="16" id="U2e-QO-tgH"/>
+                <constraint firstAttribute="bottom" secondItem="JC4-qc-m6e" secondAttribute="bottom" constant="16" id="ntE-eA-ICi"/>
+                <constraint firstItem="MdG-Tu-CfR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="qgW-yM-Vk4"/>
+                <constraint firstItem="If6-Sc-n6a" firstAttribute="top" secondItem="MdG-Tu-CfR" secondAttribute="bottom" constant="24" id="rD8-Su-q6z"/>
+                <constraint firstItem="JC4-qc-m6e" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="xJL-Ko-OE0"/>
+                <constraint firstAttribute="trailing" secondItem="If6-Sc-n6a" secondAttribute="trailing" constant="16" id="zsk-Qw-UIO"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="137.69230769230768" y="-95.97156398104265"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
