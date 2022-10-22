@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED1829892903C3AE00127CA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1829882903C3AE00127CA4 /* AppDelegate.swift */; };
+		ED18298B2903C3AE00127CA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18298A2903C3AE00127CA4 /* SceneDelegate.swift */; };
+		ED18298D2903C3AE00127CA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18298C2903C3AE00127CA4 /* ViewController.swift */; };
+		ED1829902903C3AE00127CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED18298E2903C3AE00127CA4 /* Main.storyboard */; };
+		ED1829922903C3AF00127CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1829912903C3AF00127CA4 /* Assets.xcassets */; };
+		ED1829952903C3AF00127CA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1829932903C3AF00127CA4 /* LaunchScreen.storyboard */; };
+		ED1829A02903C3AF00127CA4 /* CeksatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18299F2903C3AF00127CA4 /* CeksatTests.swift */; };
+		ED1829AA2903C3AF00127CA4 /* CeksatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1829A92903C3AF00127CA4 /* CeksatUITests.swift */; };
+		ED1829AC2903C3AF00127CA4 /* CeksatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1829AB2903C3AF00127CA4 /* CeksatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED18299C2903C3AF00127CA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED18297D2903C3AE00127CA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED1829842903C3AE00127CA4;
+			remoteInfo = Ceksat;
+		};
+		ED1829A62903C3AF00127CA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED18297D2903C3AE00127CA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED1829842903C3AE00127CA4;
+			remoteInfo = Ceksat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED1829852903C3AE00127CA4 /* Ceksat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ceksat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1829882903C3AE00127CA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED18298A2903C3AE00127CA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED18298C2903C3AE00127CA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED18298F2903C3AE00127CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED1829912903C3AF00127CA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED1829942903C3AF00127CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED1829962903C3AF00127CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED18299B2903C3AF00127CA4 /* CeksatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeksatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED18299F2903C3AF00127CA4 /* CeksatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeksatTests.swift; sourceTree = "<group>"; };
+		ED1829A52903C3AF00127CA4 /* CeksatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeksatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1829A92903C3AF00127CA4 /* CeksatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeksatUITests.swift; sourceTree = "<group>"; };
+		ED1829AB2903C3AF00127CA4 /* CeksatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeksatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED1829822903C3AE00127CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1829982903C3AF00127CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1829A22903C3AF00127CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED18297C2903C3AE00127CA4 = {
+			isa = PBXGroup;
+			children = (
+				ED1829872903C3AE00127CA4 /* Ceksat */,
+				ED18299E2903C3AF00127CA4 /* CeksatTests */,
+				ED1829A82903C3AF00127CA4 /* CeksatUITests */,
+				ED1829862903C3AE00127CA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED1829862903C3AE00127CA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED1829852903C3AE00127CA4 /* Ceksat.app */,
+				ED18299B2903C3AF00127CA4 /* CeksatTests.xctest */,
+				ED1829A52903C3AF00127CA4 /* CeksatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED1829872903C3AE00127CA4 /* Ceksat */ = {
+			isa = PBXGroup;
+			children = (
+				ED1829B82903C42F00127CA4 /* App */,
+				ED1829B92903C43E00127CA4 /* Screens */,
+			);
+			path = Ceksat;
+			sourceTree = "<group>";
+		};
+		ED18299E2903C3AF00127CA4 /* CeksatTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED18299F2903C3AF00127CA4 /* CeksatTests.swift */,
+			);
+			path = CeksatTests;
+			sourceTree = "<group>";
+		};
+		ED1829A82903C3AF00127CA4 /* CeksatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED1829A92903C3AF00127CA4 /* CeksatUITests.swift */,
+				ED1829AB2903C3AF00127CA4 /* CeksatUITestsLaunchTests.swift */,
+			);
+			path = CeksatUITests;
+			sourceTree = "<group>";
+		};
+		ED1829B82903C42F00127CA4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ED1829882903C3AE00127CA4 /* AppDelegate.swift */,
+				ED18298A2903C3AE00127CA4 /* SceneDelegate.swift */,
+				ED1829912903C3AF00127CA4 /* Assets.xcassets */,
+				ED1829932903C3AF00127CA4 /* LaunchScreen.storyboard */,
+				ED1829962903C3AF00127CA4 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ED1829B92903C43E00127CA4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				ED1829BA2903C44700127CA4 /* Initial */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		ED1829BA2903C44700127CA4 /* Initial */ = {
+			isa = PBXGroup;
+			children = (
+				ED18298C2903C3AE00127CA4 /* ViewController.swift */,
+				ED18298E2903C3AE00127CA4 /* Main.storyboard */,
+			);
+			path = Initial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED1829842903C3AE00127CA4 /* Ceksat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1829AF2903C3AF00127CA4 /* Build configuration list for PBXNativeTarget "Ceksat" */;
+			buildPhases = (
+				ED1829812903C3AE00127CA4 /* Sources */,
+				ED1829822903C3AE00127CA4 /* Frameworks */,
+				ED1829832903C3AE00127CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ceksat;
+			productName = Ceksat;
+			productReference = ED1829852903C3AE00127CA4 /* Ceksat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED18299A2903C3AF00127CA4 /* CeksatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1829B22903C3AF00127CA4 /* Build configuration list for PBXNativeTarget "CeksatTests" */;
+			buildPhases = (
+				ED1829972903C3AF00127CA4 /* Sources */,
+				ED1829982903C3AF00127CA4 /* Frameworks */,
+				ED1829992903C3AF00127CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED18299D2903C3AF00127CA4 /* PBXTargetDependency */,
+			);
+			name = CeksatTests;
+			productName = CeksatTests;
+			productReference = ED18299B2903C3AF00127CA4 /* CeksatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED1829A42903C3AF00127CA4 /* CeksatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1829B52903C3AF00127CA4 /* Build configuration list for PBXNativeTarget "CeksatUITests" */;
+			buildPhases = (
+				ED1829A12903C3AF00127CA4 /* Sources */,
+				ED1829A22903C3AF00127CA4 /* Frameworks */,
+				ED1829A32903C3AF00127CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED1829A72903C3AF00127CA4 /* PBXTargetDependency */,
+			);
+			name = CeksatUITests;
+			productName = CeksatUITests;
+			productReference = ED1829A52903C3AF00127CA4 /* CeksatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED18297D2903C3AE00127CA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					ED1829842903C3AE00127CA4 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					ED18299A2903C3AF00127CA4 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = ED1829842903C3AE00127CA4;
+					};
+					ED1829A42903C3AF00127CA4 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = ED1829842903C3AE00127CA4;
+					};
+				};
+			};
+			buildConfigurationList = ED1829802903C3AE00127CA4 /* Build configuration list for PBXProject "Ceksat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED18297C2903C3AE00127CA4;
+			productRefGroup = ED1829862903C3AE00127CA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED1829842903C3AE00127CA4 /* Ceksat */,
+				ED18299A2903C3AF00127CA4 /* CeksatTests */,
+				ED1829A42903C3AF00127CA4 /* CeksatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED1829832903C3AE00127CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1829952903C3AF00127CA4 /* LaunchScreen.storyboard in Resources */,
+				ED1829922903C3AF00127CA4 /* Assets.xcassets in Resources */,
+				ED1829902903C3AE00127CA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1829992903C3AF00127CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1829A32903C3AF00127CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED1829812903C3AE00127CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED18298D2903C3AE00127CA4 /* ViewController.swift in Sources */,
+				ED1829892903C3AE00127CA4 /* AppDelegate.swift in Sources */,
+				ED18298B2903C3AE00127CA4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1829972903C3AF00127CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1829A02903C3AF00127CA4 /* CeksatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1829A12903C3AF00127CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1829AA2903C3AF00127CA4 /* CeksatUITests.swift in Sources */,
+				ED1829AC2903C3AF00127CA4 /* CeksatUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED18299D2903C3AF00127CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED1829842903C3AE00127CA4 /* Ceksat */;
+			targetProxy = ED18299C2903C3AF00127CA4 /* PBXContainerItemProxy */;
+		};
+		ED1829A72903C3AF00127CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED1829842903C3AE00127CA4 /* Ceksat */;
+			targetProxy = ED1829A62903C3AF00127CA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED18298E2903C3AE00127CA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED18298F2903C3AE00127CA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED1829932903C3AF00127CA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED1829942903C3AF00127CA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED1829AD2903C3AF00127CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED1829AE2903C3AF00127CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED1829B02903C3AF00127CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ceksat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazaramaiosbootcamp.Ceksat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED1829B12903C3AF00127CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ceksat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazaramaiosbootcamp.Ceksat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED1829B32903C3AF00127CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazaramaiosbootcamp.CeksatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ceksat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ceksat";
+			};
+			name = Debug;
+		};
+		ED1829B42903C3AF00127CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazaramaiosbootcamp.CeksatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ceksat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ceksat";
+			};
+			name = Release;
+		};
+		ED1829B62903C3AF00127CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazaramaiosbootcamp.CeksatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ceksat;
+			};
+			name = Debug;
+		};
+		ED1829B72903C3AF00127CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazaramaiosbootcamp.CeksatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ceksat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED1829802903C3AE00127CA4 /* Build configuration list for PBXProject "Ceksat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1829AD2903C3AF00127CA4 /* Debug */,
+				ED1829AE2903C3AF00127CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1829AF2903C3AF00127CA4 /* Build configuration list for PBXNativeTarget "Ceksat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1829B02903C3AF00127CA4 /* Debug */,
+				ED1829B12903C3AF00127CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1829B22903C3AF00127CA4 /* Build configuration list for PBXNativeTarget "CeksatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1829B32903C3AF00127CA4 /* Debug */,
+				ED1829B42903C3AF00127CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1829B52903C3AF00127CA4 /* Build configuration list for PBXNativeTarget "CeksatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1829B62903C3AF00127CA4 /* Debug */,
+				ED1829B72903C3AF00127CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED18297D2903C3AE00127CA4 /* Project object */;
+}
