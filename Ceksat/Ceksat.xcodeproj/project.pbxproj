@@ -16,6 +16,10 @@
 		ED1829A02903C3AF00127CA4 /* CeksatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18299F2903C3AF00127CA4 /* CeksatTests.swift */; };
 		ED1829AA2903C3AF00127CA4 /* CeksatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1829A92903C3AF00127CA4 /* CeksatUITests.swift */; };
 		ED1829AC2903C3AF00127CA4 /* CeksatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1829AB2903C3AF00127CA4 /* CeksatUITestsLaunchTests.swift */; };
+		ED1829BF2903CD4C00127CA4 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1829BD2903CD4C00127CA4 /* OnboardingViewController.swift */; };
+		EDD8CFF02903CD7100A84A5D /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDD8CFEF2903CD7100A84A5D /* OnboardingViewController.xib */; };
+		EDD8CFF32903D13000A84A5D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8CFF22903D13000A84A5D /* OnboardingView.swift */; };
+		EDD8CFF62903D14700A84A5D /* OnboardingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDD8CFF52903D14700A84A5D /* OnboardingView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		ED1829A52903C3AF00127CA4 /* CeksatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeksatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1829A92903C3AF00127CA4 /* CeksatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeksatUITests.swift; sourceTree = "<group>"; };
 		ED1829AB2903C3AF00127CA4 /* CeksatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeksatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED1829BD2903CD4C00127CA4 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		EDD8CFEF2903CD7100A84A5D /* OnboardingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
+		EDD8CFF22903D13000A84A5D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		EDD8CFF52903D14700A84A5D /* OnboardingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +145,7 @@
 		ED1829B92903C43E00127CA4 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				ED1829BB2903CCFE00127CA4 /* Onboarding */,
 				ED1829BA2903C44700127CA4 /* Initial */,
 			);
 			path = Screens;
@@ -149,6 +158,41 @@
 				ED18298E2903C3AE00127CA4 /* Main.storyboard */,
 			);
 			path = Initial;
+			sourceTree = "<group>";
+		};
+		ED1829BB2903CCFE00127CA4 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				EDD8CFF12903CD7700A84A5D /* Controller */,
+				ED1829BC2903CD0900127CA4 /* View */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		ED1829BC2903CD0900127CA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDD8CFF42903D13400A84A5D /* OnboardingView */,
+				EDD8CFEF2903CD7100A84A5D /* OnboardingViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EDD8CFF12903CD7700A84A5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED1829BD2903CD4C00127CA4 /* OnboardingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EDD8CFF42903D13400A84A5D /* OnboardingView */ = {
+			isa = PBXGroup;
+			children = (
+				EDD8CFF22903D13000A84A5D /* OnboardingView.swift */,
+				EDD8CFF52903D14700A84A5D /* OnboardingView.xib */,
+			);
+			path = OnboardingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +302,8 @@
 				ED1829952903C3AF00127CA4 /* LaunchScreen.storyboard in Resources */,
 				ED1829922903C3AF00127CA4 /* Assets.xcassets in Resources */,
 				ED1829902903C3AE00127CA4 /* Main.storyboard in Resources */,
+				EDD8CFF62903D14700A84A5D /* OnboardingView.xib in Resources */,
+				EDD8CFF02903CD7100A84A5D /* OnboardingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +331,8 @@
 				ED18298D2903C3AE00127CA4 /* ViewController.swift in Sources */,
 				ED1829892903C3AE00127CA4 /* AppDelegate.swift in Sources */,
 				ED18298B2903C3AE00127CA4 /* SceneDelegate.swift in Sources */,
+				EDD8CFF32903D13000A84A5D /* OnboardingView.swift in Sources */,
+				ED1829BF2903CD4C00127CA4 /* OnboardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
