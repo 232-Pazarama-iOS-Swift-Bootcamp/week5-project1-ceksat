@@ -14,7 +14,7 @@
 		ED1433A2290D07D200341CD8 /* FakeStoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433A1290D07D200341CD8 /* FakeStoreService.swift */; };
 		ED1433A5290D083E00341CD8 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = ED1433A4290D083E00341CD8 /* Moya */; };
 		ED1433B5290D10C500341CD8 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = ED1433B4290D10C500341CD8 /* product.json */; };
-		ED1433B8290D12C800341CD8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433B6290D12A900341CD8 /* Product.swift */; };
+		ED1433DF290D3B2100341CD8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433DE290D3B2100341CD8 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 		ED143396290D03C600341CD8 /* CeksatAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeksatAPITests.swift; sourceTree = "<group>"; };
 		ED1433A1290D07D200341CD8 /* FakeStoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeStoreService.swift; sourceTree = "<group>"; };
 		ED1433B4290D10C500341CD8 /* product.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
-		ED1433B6290D12A900341CD8 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		ED1433DE290D3B2100341CD8 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 		ED143389290D03C600341CD8 /* CeksatAPI */ = {
 			isa = PBXGroup;
 			children = (
-				ED1433B7290D12A900341CD8 /* Model */,
+				ED1433DD290D3B2100341CD8 /* Entity */,
 				ED14338A290D03C600341CD8 /* CeksatAPI.h */,
 				ED14338B290D03C600341CD8 /* CeksatAPI.docc */,
 				ED1433A1290D07D200341CD8 /* FakeStoreService.swift */,
@@ -104,12 +104,12 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		ED1433B7290D12A900341CD8 /* Model */ = {
+		ED1433DD290D3B2100341CD8 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				ED1433B6290D12A900341CD8 /* Product.swift */,
+				ED1433DE290D3B2100341CD8 /* Product.swift */,
 			);
-			path = Model;
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +230,7 @@
 			files = (
 				ED1433A2290D07D200341CD8 /* FakeStoreService.swift in Sources */,
 				ED14338C290D03C600341CD8 /* CeksatAPI.docc in Sources */,
-				ED1433B8290D12C800341CD8 /* Product.swift in Sources */,
+				ED1433DF290D3B2100341CD8 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

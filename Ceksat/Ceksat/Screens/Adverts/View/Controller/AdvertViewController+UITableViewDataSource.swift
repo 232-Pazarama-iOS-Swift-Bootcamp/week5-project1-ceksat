@@ -9,12 +9,12 @@ import UIKit
 
 extension AdvertViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        viewModel.numberOfRows
+        presenter.numberOfRows
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = viewModel.titleForRow(indexPath.row)
+        cell.textLabel?.text = presenter.titleForRow(indexPath.row)
         return cell
     }
 }

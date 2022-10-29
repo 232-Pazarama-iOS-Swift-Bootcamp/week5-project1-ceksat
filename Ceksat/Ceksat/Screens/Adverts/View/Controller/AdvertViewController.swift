@@ -9,7 +9,7 @@ import UIKit
 
 final class AdvertViewController: UIViewController {
     // MARK: - Properties
-    var viewModel: AdvertViewModelProtocol
+    var presenter: AdvertPresenter
     
     @IBOutlet weak var tableView: UITableView! {
         didSet {
@@ -20,8 +20,8 @@ final class AdvertViewController: UIViewController {
     }
     
     // MARK: - Init
-    init(viewModel: AdvertViewModelProtocol) {
-        self.viewModel = viewModel
+    init(presenter: AdvertPresenter) {
+        self.presenter = presenter
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -32,13 +32,14 @@ final class AdvertViewController: UIViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel.delegate = self
-        viewModel.fetchProducts()
+        presenter.delegate = self
+        presenter.fetchProducts()
+        presenter.view = self
     }
 }
 
-// MARK: - AdvertViewModelDelegate
-extension AdvertViewController: AdvertViewModelDelegate {
+// MARK: - AdvertPresenterDelegate
+extension AdvertViewController: AdvertPresenterDelegate {
     func didErrorOccurred(_ error: Error) {
         print(error.localizedDescription)
     }

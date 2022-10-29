@@ -12,8 +12,18 @@ final class MainTabBarController: UITabBarController {
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         
-        let advertViewModel = AdvertViewModel()
-        let advertViewController = AdvertViewController(viewModel: advertViewModel)
+        
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let advertInteractor = AdvertInteractor()
+        let advertPresenter = AdvertPresenter(interactor: advertInteractor)
+        let advertViewController = AdvertViewController(presenter: advertPresenter)
         advertViewController.title = "Advert"
         let advertNavigationController = UINavigationController(rootViewController: advertViewController)
         
@@ -28,9 +38,5 @@ final class MainTabBarController: UITabBarController {
         setViewControllers([advertNavigationController,
                             cameraNavigationController,
                             profileNavigationController], animated: true)
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
     }
 }

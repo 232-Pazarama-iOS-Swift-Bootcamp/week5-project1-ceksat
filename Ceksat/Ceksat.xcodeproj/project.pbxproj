@@ -17,13 +17,17 @@
 		ED1433A8290D09E500341CD8 /* CeksatAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1433A7290D09E500341CD8 /* CeksatAPI.framework */; };
 		ED1433A9290D09E500341CD8 /* CeksatAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED1433A7290D09E500341CD8 /* CeksatAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ED1433AF290D0AFE00341CD8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433AE290D0AFE00341CD8 /* Product.swift */; };
-		ED1433B2290D0BCA00341CD8 /* AdvertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433B1290D0BCA00341CD8 /* AdvertViewModel.swift */; };
+		ED1433B2290D0BCA00341CD8 /* AdvertInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433B1290D0BCA00341CD8 /* AdvertInteractor.swift */; };
 		ED1433BA290D1DEB00341CD8 /* AdvertViewController+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433B9290D1DEA00341CD8 /* AdvertViewController+UITableViewDelegate.swift */; };
 		ED1433BC290D1E0F00341CD8 /* AdvertViewController+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433BB290D1E0F00341CD8 /* AdvertViewController+UITableViewDataSource.swift */; };
 		ED1433C1290D28EA00341CD8 /* InitialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433C0290D28EA00341CD8 /* InitialViewModel.swift */; };
 		ED1433C4290D298200341CD8 /* RealmReacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433C3290D298200341CD8 /* RealmReacheable.swift */; };
 		ED1433C7290D2A4D00341CD8 /* ProductEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433C6290D2A4D00341CD8 /* ProductEntity.swift */; };
 		ED1433C9290D2AFF00341CD8 /* RatingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433C8290D2AFF00341CD8 /* RatingEntity.swift */; };
+		ED1433D0290D358B00341CD8 /* AdvertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433CF290D358B00341CD8 /* AdvertPresenter.swift */; };
+		ED1433D3290D39C900341CD8 /* AdvertRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433D2290D39C900341CD8 /* AdvertRouter.swift */; };
+		ED1433D7290D3A8400341CD8 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433D5290D3A8400341CD8 /* ProductDetailViewController.swift */; };
+		ED1433D8290D3A8400341CD8 /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED1433D6290D3A8400341CD8 /* ProductDetailViewController.xib */; };
 		ED1829892903C3AE00127CA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1829882903C3AE00127CA4 /* AppDelegate.swift */; };
 		ED18298B2903C3AE00127CA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18298A2903C3AE00127CA4 /* SceneDelegate.swift */; };
 		ED18298D2903C3AE00127CA4 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18298C2903C3AE00127CA4 /* InitialViewController.swift */; };
@@ -94,13 +98,17 @@
 		ED143379290CFF7000341CD8 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		ED1433A7290D09E500341CD8 /* CeksatAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CeksatAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1433AE290D0AFE00341CD8 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		ED1433B1290D0BCA00341CD8 /* AdvertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertViewModel.swift; sourceTree = "<group>"; };
+		ED1433B1290D0BCA00341CD8 /* AdvertInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertInteractor.swift; sourceTree = "<group>"; };
 		ED1433B9290D1DEA00341CD8 /* AdvertViewController+UITableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdvertViewController+UITableViewDelegate.swift"; sourceTree = "<group>"; };
 		ED1433BB290D1E0F00341CD8 /* AdvertViewController+UITableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdvertViewController+UITableViewDataSource.swift"; sourceTree = "<group>"; };
 		ED1433C0290D28EA00341CD8 /* InitialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewModel.swift; sourceTree = "<group>"; };
 		ED1433C3290D298200341CD8 /* RealmReacheable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmReacheable.swift; sourceTree = "<group>"; };
 		ED1433C6290D2A4D00341CD8 /* ProductEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductEntity.swift; sourceTree = "<group>"; };
 		ED1433C8290D2AFF00341CD8 /* RatingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingEntity.swift; sourceTree = "<group>"; };
+		ED1433CF290D358B00341CD8 /* AdvertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertPresenter.swift; sourceTree = "<group>"; };
+		ED1433D2290D39C900341CD8 /* AdvertRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertRouter.swift; sourceTree = "<group>"; };
+		ED1433D5290D3A8400341CD8 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		ED1433D6290D3A8400341CD8 /* ProductDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailViewController.xib; sourceTree = "<group>"; };
 		ED1829852903C3AE00127CA4 /* Ceksat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ceksat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1829882903C3AE00127CA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED18298A2903C3AE00127CA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -179,9 +187,10 @@
 		ED14336D290CFEE200341CD8 /* Adverts */ = {
 			isa = PBXGroup;
 			children = (
-				ED1433B0290D0BBA00341CD8 /* ViewModel */,
-				ED1433AD290D0ADD00341CD8 /* Model */,
-				ED1433AC290D0AD700341CD8 /* Controller */,
+				ED1433D1290D386000341CD8 /* Router */,
+				ED1433AD290D0ADD00341CD8 /* Entity */,
+				ED1433CE290D357800341CD8 /* Presenter */,
+				ED1433B0290D0BBA00341CD8 /* Interactor */,
 				ED1433AB290D0ACF00341CD8 /* View */,
 			);
 			path = Adverts;
@@ -216,6 +225,7 @@
 		ED1433AB290D0ACF00341CD8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ED1433AC290D0AD700341CD8 /* Controller */,
 				ED143371290CFF5300341CD8 /* AdvertViewController.xib */,
 			);
 			path = View;
@@ -231,21 +241,21 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		ED1433AD290D0ADD00341CD8 /* Model */ = {
+		ED1433AD290D0ADD00341CD8 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
 				ED1433AE290D0AFE00341CD8 /* Product.swift */,
 			);
-			name = Model;
-			path = ../../../../CeksatAPI/CeksatAPI/Model;
+			name = Entity;
+			path = ../../../../CeksatAPI/CeksatAPI/Entity;
 			sourceTree = "<group>";
 		};
-		ED1433B0290D0BBA00341CD8 /* ViewModel */ = {
+		ED1433B0290D0BBA00341CD8 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				ED1433B1290D0BCA00341CD8 /* AdvertViewModel.swift */,
+				ED1433B1290D0BCA00341CD8 /* AdvertInteractor.swift */,
 			);
-			path = ViewModel;
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		ED1433BD290D28AA00341CD8 /* Controller */ = {
@@ -287,6 +297,64 @@
 				ED1433C8290D2AFF00341CD8 /* RatingEntity.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		ED1433CA290D31FF00341CD8 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				ED1829882903C3AE00127CA4 /* AppDelegate.swift */,
+				ED18298A2903C3AE00127CA4 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		ED1433CB290D320800341CD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED1829932903C3AF00127CA4 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED1433CC290D321000341CD8 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				ED1829962903C3AF00127CA4 /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		ED1433CD290D321600341CD8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				ED1829912903C3AF00127CA4 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		ED1433CE290D357800341CD8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				ED1433CF290D358B00341CD8 /* AdvertPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		ED1433D1290D386000341CD8 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				ED1433D2290D39C900341CD8 /* AdvertRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		ED1433D4290D3A7100341CD8 /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				ED1433D5290D3A8400341CD8 /* ProductDetailViewController.swift */,
+				ED1433D6290D3A8400341CD8 /* ProductDetailViewController.xib */,
+			);
+			path = ProductDetail;
 			sourceTree = "<group>";
 		};
 		ED18297C2903C3AE00127CA4 = {
@@ -339,12 +407,11 @@
 		ED1829B82903C42F00127CA4 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				ED1433CD290D321600341CD8 /* Assets */,
+				ED1433CC290D321000341CD8 /* Plists */,
+				ED1433CB290D320800341CD8 /* Views */,
+				ED1433CA290D31FF00341CD8 /* Delegates */,
 				ED8ED9B72903F704005EE518 /* Core */,
-				ED1829882903C3AE00127CA4 /* AppDelegate.swift */,
-				ED18298A2903C3AE00127CA4 /* SceneDelegate.swift */,
-				ED1829912903C3AF00127CA4 /* Assets.xcassets */,
-				ED1829932903C3AF00127CA4 /* LaunchScreen.storyboard */,
-				ED1829962903C3AF00127CA4 /* Info.plist */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -352,6 +419,7 @@
 		ED1829B92903C43E00127CA4 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				ED1433D4290D3A7100341CD8 /* ProductDetail */,
 				ED14336F290CFF1100341CD8 /* Profile */,
 				ED14336E290CFF0800341CD8 /* Camera */,
 				ED14336D290CFEE200341CD8 /* Adverts */,
@@ -606,6 +674,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1433D8290D3A8400341CD8 /* ProductDetailViewController.xib in Resources */,
 				ED143373290CFF5300341CD8 /* AdvertViewController.xib in Resources */,
 				ED1829952903C3AF00127CA4 /* LaunchScreen.storyboard in Resources */,
 				ED1829922903C3AF00127CA4 /* Assets.xcassets in Resources */,
@@ -642,9 +711,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED1433B2290D0BCA00341CD8 /* AdvertViewModel.swift in Sources */,
+				ED1433B2290D0BCA00341CD8 /* AdvertInteractor.swift in Sources */,
 				ED18298D2903C3AE00127CA4 /* InitialViewController.swift in Sources */,
 				ED8ED9AD2903F68A005EE518 /* SignInView.swift in Sources */,
+				ED1433D0290D358B00341CD8 /* AdvertPresenter.swift in Sources */,
 				ED1433BC290D1E0F00341CD8 /* AdvertViewController+UITableViewDataSource.swift in Sources */,
 				ED1829892903C3AE00127CA4 /* AppDelegate.swift in Sources */,
 				ED18298B2903C3AE00127CA4 /* SceneDelegate.swift in Sources */,
@@ -652,11 +722,13 @@
 				ED1433C9290D2AFF00341CD8 /* RatingEntity.swift in Sources */,
 				ED1433C7290D2A4D00341CD8 /* ProductEntity.swift in Sources */,
 				ED1433AF290D0AFE00341CD8 /* Product.swift in Sources */,
+				ED1433D7290D3A8400341CD8 /* ProductDetailViewController.swift in Sources */,
 				ED1433C1290D28EA00341CD8 /* InitialViewModel.swift in Sources */,
 				ED1433C4290D298200341CD8 /* RealmReacheable.swift in Sources */,
 				ED1433BA290D1DEB00341CD8 /* AdvertViewController+UITableViewDelegate.swift in Sources */,
 				EDD8CFF32903D13000A84A5D /* OnboardingView.swift in Sources */,
 				ED14337A290CFF7000341CD8 /* ProfileViewController.swift in Sources */,
+				ED1433D3290D39C900341CD8 /* AdvertRouter.swift in Sources */,
 				EDD8CFFA2903F5B700A84A5D /* AuthViewController.swift in Sources */,
 				ED14336C290CFD8F00341CD8 /* MainTabBarController.swift in Sources */,
 				ED143372290CFF5300341CD8 /* AdvertViewController.swift in Sources */,
@@ -844,7 +916,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Ceksat/App/Info.plist;
+				INFOPLIST_FILE = Ceksat/App/Plists/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -872,7 +944,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Ceksat/App/Info.plist;
+				INFOPLIST_FILE = Ceksat/App/Plists/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

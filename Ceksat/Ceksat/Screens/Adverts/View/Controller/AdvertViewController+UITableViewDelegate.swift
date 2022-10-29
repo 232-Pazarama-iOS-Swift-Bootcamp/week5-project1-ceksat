@@ -8,5 +8,7 @@
 import UIKit
 
 extension AdvertViewController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        presenter.goToDetailFor(indexPath.row)
+    }
 }
