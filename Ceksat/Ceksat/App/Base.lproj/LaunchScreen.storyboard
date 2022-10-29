@@ -24,20 +24,12 @@
                                     <constraint firstAttribute="width" secondItem="UBI-xK-oF5" secondAttribute="height" multiplier="1:1" id="gXf-k6-5ZW"/>
                                 </constraints>
                             </imageView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="sd2-Kf-USD">
-                                <rect key="frame" x="176.66666666666666" y="550" width="37" height="37"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="sd2-Kf-USD" secondAttribute="height" multiplier="1:1" id="1BB-5r-iyO"/>
-                                </constraints>
-                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
-                            <constraint firstItem="sd2-Kf-USD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="S8A-h9-IxM"/>
                             <constraint firstItem="UBI-xK-oF5" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="kKb-1i-qy6"/>
                             <constraint firstItem="UBI-xK-oF5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qJN-sn-hmF"/>
-                            <constraint firstItem="sd2-Kf-USD" firstAttribute="top" secondItem="UBI-xK-oF5" secondAttribute="bottom" constant="64" id="tIf-Mc-7PM"/>
                         </constraints>
                     </view>
                 </viewController>

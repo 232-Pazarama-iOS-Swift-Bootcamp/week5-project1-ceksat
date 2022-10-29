@@ -7,8 +7,15 @@
 
 import UIKit
 
+@objc
+protocol CSTextViewDelegate: AnyObject {
+    @objc optional func textView(_ view: CSTextView, textFieldDidBeginEditing textField: UITextField)
+}
+
 @IBDesignable
 class CSTextView: CSView {
+    
+    weak var delegate: CSTextViewDelegate?
     
     @IBInspectable
     var title: String? {
@@ -18,7 +25,12 @@ class CSTextView: CSView {
     }
     
     var text: String? {
-        textField.text
+        get {
+            textField.text
+        }
+        set {
+            textField.text = newValue
+        }
     }
     
     @IBInspectable
@@ -41,7 +53,26 @@ class CSTextView: CSView {
         }
     }
     
+    @IBInspectable
+    var isEditingEnable: Bool = true
+    
     @IBOutlet private weak var titleLabel: UILabel!
     @IBOutlet private weak var textField: UITextField!
     @IBOutlet private weak var errorLabel: UILabel!
+    
+    override func commonInit() {
+        super.commonInit()
+        textField.delegate = self
+    }
+}
+
+// MARK: - UITextFieldDelegate
+extension CSTextView: UITextFieldDelegate {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        delegate?.textView?(self, textFieldDidBeginEditing: textField)
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        return isEditingEnable
+    }
 }

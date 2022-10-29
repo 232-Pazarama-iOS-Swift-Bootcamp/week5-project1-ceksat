@@ -23,116 +23,134 @@
             <rect key="frame" x="0.0" y="0.0" width="390" height="650"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="HFp-Ki-wuC">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tyo-Bi-7g4" customClass="IQPreviousNextView" customModule="IQKeyboardManagerSwift">
                     <rect key="frame" x="16" y="16" width="358" height="618"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Bv-er-Nmu">
-                            <rect key="frame" x="0.0" y="0.0" width="358" height="64"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="64" id="gEp-cP-INT"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1DT-Fw-03i" customClass="CSTextView" customModule="Ceksat" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="72" width="358" height="73"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            <constraints>
-                                <constraint firstAttribute="height" priority="250" constant="76" id="b3V-Ve-BH9"/>
-                            </constraints>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="Username"/>
-                            </userDefinedRuntimeAttributes>
-                        </view>
-                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lT4-X8-jJA" customClass="CSTextView" customModule="Ceksat" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="153" width="358" height="75"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            <constraints>
-                                <constraint firstAttribute="height" priority="250" constant="76" id="rne-KY-8vh"/>
-                            </constraints>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="E-mail"/>
-                            </userDefinedRuntimeAttributes>
-                        </view>
-                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="blS-po-3uc" customClass="CSTextView" customModule="Ceksat" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="236" width="358" height="76"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            <constraints>
-                                <constraint firstAttribute="height" priority="250" constant="76" id="bgS-jG-tgQ"/>
-                            </constraints>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="boolean" keyPath="isSecureTextEntry" value="NO"/>
-                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="Gender"/>
-                            </userDefinedRuntimeAttributes>
-                        </view>
-                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OP5-ZJ-Ocu" customClass="CSTextView" customModule="Ceksat" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="320" width="358" height="76"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            <constraints>
-                                <constraint firstAttribute="height" priority="250" constant="76" id="wTo-nE-D7W"/>
-                            </constraints>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="boolean" keyPath="isSecureTextEntry" value="NO"/>
-                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="Birth Date"/>
-                            </userDefinedRuntimeAttributes>
-                        </view>
-                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5l1-ut-WZl" customClass="CSTextView" customModule="Ceksat" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="404" width="358" height="76"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            <constraints>
-                                <constraint firstAttribute="height" priority="250" constant="76" id="reT-UI-ohQ"/>
-                            </constraints>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="boolean" keyPath="isSecureTextEntry" value="YES"/>
-                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="Password"/>
-                            </userDefinedRuntimeAttributes>
-                        </view>
-                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZMH-7b-Jd8" customClass="CSTextView" customModule="Ceksat" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="488" width="358" height="72"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            <constraints>
-                                <constraint firstAttribute="height" priority="250" constant="76" id="3jr-eg-27O"/>
-                            </constraints>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="boolean" keyPath="isSecureTextEntry" value="YES"/>
-                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="Password Again"/>
-                            </userDefinedRuntimeAttributes>
-                        </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mdk-yc-czZ">
-                            <rect key="frame" x="0.0" y="568" width="358" height="50"/>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="HFp-Ki-wuC">
+                            <rect key="frame" x="0.0" y="0.0" width="358" height="618"/>
                             <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uu4-2Z-ZAJ">
-                                    <rect key="frame" x="0.0" y="16" width="358" height="34"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Bv-er-Nmu">
+                                    <rect key="frame" x="0.0" y="0.0" width="358" height="64"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="34" id="lgX-Pw-igD"/>
+                                        <constraint firstAttribute="height" constant="64" id="gEp-cP-INT"/>
                                     </constraints>
-                                    <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="Do you have already an account?"/>
-                                    <connections>
-                                        <action selector="didTapAlreadyHaveAnAccountButton:" destination="-1" eventType="touchUpInside" id="Cig-xL-Irk"/>
-                                    </connections>
-                                </button>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1DT-Fw-03i" customClass="CSTextView" customModule="Ceksat" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="72" width="358" height="68"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="250" constant="76" id="b3V-Ve-BH9"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Username"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lT4-X8-jJA" customClass="CSTextView" customModule="Ceksat" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="148" width="358" height="76"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="250" constant="76" id="rne-KY-8vh"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="E-mail"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="blS-po-3uc" customClass="CSTextView" customModule="Ceksat" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="232" width="358" height="76"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="250" constant="76" id="bgS-jG-tgQ"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSecureTextEntry" value="NO"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Gender"/>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isEditingEnable" value="NO"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OP5-ZJ-Ocu" customClass="CSTextView" customModule="Ceksat" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="316" width="358" height="76"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="250" constant="76" id="wTo-nE-D7W"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSecureTextEntry" value="NO"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Birth Date"/>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isEditingEnable" value="NO"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5l1-ut-WZl" customClass="CSTextView" customModule="Ceksat" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="400" width="358" height="76"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="250" constant="76" id="reT-UI-ohQ"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSecureTextEntry" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Password"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZMH-7b-Jd8" customClass="CSTextView" customModule="Ceksat" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="484" width="358" height="76"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" priority="250" constant="76" id="3jr-eg-27O"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSecureTextEntry" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Password Again"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mdk-yc-czZ">
+                                    <rect key="frame" x="0.0" y="568" width="358" height="50"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uu4-2Z-ZAJ">
+                                            <rect key="frame" x="0.0" y="16" width="358" height="34"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="34" id="lgX-Pw-igD"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="Do you have already an account?"/>
+                                            <connections>
+                                                <action selector="didTapAlreadyHaveAnAccountButton:" destination="-1" eventType="touchUpInside" id="Cig-xL-Irk"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="Uu4-2Z-ZAJ" firstAttribute="leading" secondItem="mdk-yc-czZ" secondAttribute="leading" id="ENz-AG-iqF"/>
+                                        <constraint firstAttribute="bottom" secondItem="Uu4-2Z-ZAJ" secondAttribute="bottom" id="VhF-e0-HBV"/>
+                                        <constraint firstAttribute="trailing" secondItem="Uu4-2Z-ZAJ" secondAttribute="trailing" id="udn-0B-iSx"/>
+                                        <constraint firstItem="Uu4-2Z-ZAJ" firstAttribute="top" secondItem="mdk-yc-czZ" secondAttribute="top" constant="16" id="wYc-sT-0eG"/>
+                                    </constraints>
+                                </view>
                             </subviews>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            <constraints>
-                                <constraint firstItem="Uu4-2Z-ZAJ" firstAttribute="leading" secondItem="mdk-yc-czZ" secondAttribute="leading" id="ENz-AG-iqF"/>
-                                <constraint firstAttribute="bottom" secondItem="Uu4-2Z-ZAJ" secondAttribute="bottom" id="VhF-e0-HBV"/>
-                                <constraint firstAttribute="trailing" secondItem="Uu4-2Z-ZAJ" secondAttribute="trailing" id="udn-0B-iSx"/>
-                                <constraint firstItem="Uu4-2Z-ZAJ" firstAttribute="top" secondItem="mdk-yc-czZ" secondAttribute="top" constant="16" id="wYc-sT-0eG"/>
-                            </constraints>
-                        </view>
+                        </stackView>
                     </subviews>
-                </stackView>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="HFp-Ki-wuC" secondAttribute="trailing" id="2jj-KN-ajV"/>
+                        <constraint firstAttribute="bottom" secondItem="HFp-Ki-wuC" secondAttribute="bottom" id="4Zc-iV-BlZ"/>
+                        <constraint firstAttribute="trailing" secondItem="HFp-Ki-wuC" secondAttribute="trailing" id="5th-GC-lYk"/>
+                        <constraint firstItem="HFp-Ki-wuC" firstAttribute="leading" secondItem="tyo-Bi-7g4" secondAttribute="leading" id="FdD-25-juq"/>
+                        <constraint firstAttribute="trailing" secondItem="HFp-Ki-wuC" secondAttribute="trailing" id="RdQ-tb-iFJ"/>
+                        <constraint firstItem="HFp-Ki-wuC" firstAttribute="top" secondItem="tyo-Bi-7g4" secondAttribute="top" id="aQg-v9-iQT"/>
+                        <constraint firstItem="HFp-Ki-wuC" firstAttribute="top" secondItem="tyo-Bi-7g4" secondAttribute="top" id="bCb-GZ-eMx"/>
+                        <constraint firstItem="HFp-Ki-wuC" firstAttribute="leading" secondItem="tyo-Bi-7g4" secondAttribute="leading" id="fmX-Uj-afs"/>
+                        <constraint firstItem="HFp-Ki-wuC" firstAttribute="leading" secondItem="tyo-Bi-7g4" secondAttribute="leading" id="qf1-co-Csg"/>
+                        <constraint firstAttribute="bottom" secondItem="HFp-Ki-wuC" secondAttribute="bottom" id="ucU-lN-YCs"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="HFp-Ki-wuC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="2Jp-UM-QE7"/>
-                <constraint firstItem="HFp-Ki-wuC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="CkS-Wg-PJo"/>
-                <constraint firstAttribute="bottom" secondItem="HFp-Ki-wuC" secondAttribute="bottom" constant="16" id="L9D-yL-yYV"/>
-                <constraint firstItem="HFp-Ki-wuC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="rn7-3y-f9t"/>
-                <constraint firstAttribute="trailing" secondItem="HFp-Ki-wuC" secondAttribute="trailing" constant="16" id="wuL-2G-DgI"/>
-                <constraint firstAttribute="trailing" secondItem="HFp-Ki-wuC" secondAttribute="trailing" constant="16" id="zty-yI-f3x"/>
+                <constraint firstItem="tyo-Bi-7g4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="P3y-jl-jvN"/>
+                <constraint firstItem="tyo-Bi-7g4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="Vyn-Na-VsK"/>
+                <constraint firstAttribute="bottom" secondItem="tyo-Bi-7g4" secondAttribute="bottom" constant="16" id="jzj-Jw-DZv"/>
+                <constraint firstAttribute="trailing" secondItem="tyo-Bi-7g4" secondAttribute="trailing" constant="16" id="niH-TR-Mjn"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="138.46153846153845" y="-46.919431279620852"/>

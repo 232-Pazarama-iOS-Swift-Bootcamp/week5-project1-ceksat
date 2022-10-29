@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED14338C290D03C600341CD8 /* CeksatAPI.docc in Sources */ = {isa = PBXBuildFile; fileRef = ED14338B290D03C600341CD8 /* CeksatAPI.docc */; };
+		ED143392290D03C600341CD8 /* CeksatAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED143387290D03C600341CD8 /* CeksatAPI.framework */; };
+		ED143397290D03C600341CD8 /* CeksatAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED143396290D03C600341CD8 /* CeksatAPITests.swift */; };
+		ED143398290D03C600341CD8 /* CeksatAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = ED14338A290D03C600341CD8 /* CeksatAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED1433A2290D07D200341CD8 /* FakeStoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433A1290D07D200341CD8 /* FakeStoreService.swift */; };
+		ED1433A5290D083E00341CD8 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = ED1433A4290D083E00341CD8 /* Moya */; };
+		ED1433B5290D10C500341CD8 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = ED1433B4290D10C500341CD8 /* product.json */; };
+		ED1433B8290D12C800341CD8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433B6290D12A900341CD8 /* Product.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED143393290D03C600341CD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED14337E290D03C600341CD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED143386290D03C600341CD8;
+			remoteInfo = CeksatAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED143387290D03C600341CD8 /* CeksatAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CeksatAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED14338A290D03C600341CD8 /* CeksatAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CeksatAPI.h; sourceTree = "<group>"; };
+		ED14338B290D03C600341CD8 /* CeksatAPI.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CeksatAPI.docc; sourceTree = "<group>"; };
+		ED143391290D03C600341CD8 /* CeksatAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeksatAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED143396290D03C600341CD8 /* CeksatAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeksatAPITests.swift; sourceTree = "<group>"; };
+		ED1433A1290D07D200341CD8 /* FakeStoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeStoreService.swift; sourceTree = "<group>"; };
+		ED1433B4290D10C500341CD8 /* product.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
+		ED1433B6290D12A900341CD8 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED143384290D03C600341CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1433A5290D083E00341CD8 /* Moya in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED14338E290D03C600341CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED143392290D03C600341CD8 /* CeksatAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED14337D290D03C600341CD8 = {
+			isa = PBXGroup;
+			children = (
+				ED143389290D03C600341CD8 /* CeksatAPI */,
+				ED143395290D03C600341CD8 /* CeksatAPITests */,
+				ED143388290D03C600341CD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED143388290D03C600341CD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED143387290D03C600341CD8 /* CeksatAPI.framework */,
+				ED143391290D03C600341CD8 /* CeksatAPITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED143389290D03C600341CD8 /* CeksatAPI */ = {
+			isa = PBXGroup;
+			children = (
+				ED1433B7290D12A900341CD8 /* Model */,
+				ED14338A290D03C600341CD8 /* CeksatAPI.h */,
+				ED14338B290D03C600341CD8 /* CeksatAPI.docc */,
+				ED1433A1290D07D200341CD8 /* FakeStoreService.swift */,
+			);
+			path = CeksatAPI;
+			sourceTree = "<group>";
+		};
+		ED143395290D03C600341CD8 /* CeksatAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED1433B3290D108A00341CD8 /* Resources */,
+				ED143396290D03C600341CD8 /* CeksatAPITests.swift */,
+			);
+			path = CeksatAPITests;
+			sourceTree = "<group>";
+		};
+		ED1433B3290D108A00341CD8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED1433B4290D10C500341CD8 /* product.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED1433B7290D12A900341CD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED1433B6290D12A900341CD8 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ED143382290D03C600341CD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED143398290D03C600341CD8 /* CeksatAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ED143386290D03C600341CD8 /* CeksatAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED14339B290D03C600341CD8 /* Build configuration list for PBXNativeTarget "CeksatAPI" */;
+			buildPhases = (
+				ED143382290D03C600341CD8 /* Headers */,
+				ED143383290D03C600341CD8 /* Sources */,
+				ED143384290D03C600341CD8 /* Frameworks */,
+				ED143385290D03C600341CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CeksatAPI;
+			packageProductDependencies = (
+				ED1433A4290D083E00341CD8 /* Moya */,
+			);
+			productName = CeksatAPI;
+			productReference = ED143387290D03C600341CD8 /* CeksatAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED143390290D03C600341CD8 /* CeksatAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED14339E290D03C600341CD8 /* Build configuration list for PBXNativeTarget "CeksatAPITests" */;
+			buildPhases = (
+				ED14338D290D03C600341CD8 /* Sources */,
+				ED14338E290D03C600341CD8 /* Frameworks */,
+				ED14338F290D03C600341CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED143394290D03C600341CD8 /* PBXTargetDependency */,
+			);
+			name = CeksatAPITests;
+			productName = CeksatAPITests;
+			productReference = ED143391290D03C600341CD8 /* CeksatAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED14337E290D03C600341CD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					ED143386290D03C600341CD8 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					ED143390290D03C600341CD8 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = ED143381290D03C600341CD8 /* Build configuration list for PBXProject "CeksatAPI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED14337D290D03C600341CD8;
+			packageReferences = (
+				ED1433A3290D083E00341CD8 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
+			productRefGroup = ED143388290D03C600341CD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED143386290D03C600341CD8 /* CeksatAPI */,
+				ED143390290D03C600341CD8 /* CeksatAPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED143385290D03C600341CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED14338F290D03C600341CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1433B5290D10C500341CD8 /* product.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED143383290D03C600341CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1433A2290D07D200341CD8 /* FakeStoreService.swift in Sources */,
+				ED14338C290D03C600341CD8 /* CeksatAPI.docc in Sources */,
+				ED1433B8290D12C800341CD8 /* Product.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED14338D290D03C600341CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED143397290D03C600341CD8 /* CeksatAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED143394290D03C600341CD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED143386290D03C600341CD8 /* CeksatAPI */;
+			targetProxy = ED143393290D03C600341CD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED143399290D03C600341CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED14339A290D03C600341CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED14339C290D03C600341CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazaramaiosbootcamp.CeksatAPI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED14339D290D03C600341CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazaramaiosbootcamp.CeksatAPI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED14339F290D03C600341CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazaramaiosbootcamp.CeksatAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED1433A0290D03C600341CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pazaramaiosbootcamp.CeksatAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED143381290D03C600341CD8 /* Build configuration list for PBXProject "CeksatAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED143399290D03C600341CD8 /* Debug */,
+				ED14339A290D03C600341CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED14339B290D03C600341CD8 /* Build configuration list for PBXNativeTarget "CeksatAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED14339C290D03C600341CD8 /* Debug */,
+				ED14339D290D03C600341CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED14339E290D03C600341CD8 /* Build configuration list for PBXNativeTarget "CeksatAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED14339F290D03C600341CD8 /* Debug */,
+				ED1433A0290D03C600341CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED1433A3290D083E00341CD8 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 16.0.0;
+				minimumVersion = 15.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED1433A4290D083E00341CD8 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED1433A3290D083E00341CD8 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ED14337E290D03C600341CD8 /* Project object */;
+}

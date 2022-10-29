@@ -88,6 +88,14 @@ final class OnboardingViewController: UIViewController {
         secondOnboardingView.image = UIImage(named: "placeholder")
         secondOnboardingView.text = "Second Onboarding View"
         onboardingViews.append(secondOnboardingView)
+        
+        let defaults = UserDefaults.standard
+        let isOnboardingScreenViewedKey = "isOnboardingScreenViewed"
+        if defaults.bool(forKey: isOnboardingScreenViewedKey) == false {
+            defaults.set(true, forKey: isOnboardingScreenViewedKey)
+        } else {
+            goToAuth()
+        }
     }
     
     @IBAction func didTapNextButton(_ sender: UIButton) {

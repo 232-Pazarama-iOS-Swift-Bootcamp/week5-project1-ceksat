@@ -7,6 +7,8 @@
 
 import UIKit
 import SnapKit
+import IQKeyboardManagerSwift
+import RealmSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,8 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        setupKeyboardManager()
+        
+        print("REALM FILE PATH: \( Realm.Configuration.defaultConfiguration.fileURL)")
+        
         return true
+    }
+    
+    private func setupKeyboardManager() {
+        let keyboardManager = IQKeyboardManager.shared
+        keyboardManager.enable = true
+        keyboardManager.shouldResignOnTouchOutside = true
+        keyboardManager.toolbarDoneBarButtonItemText = "Done"
+        keyboardManager.toolbarTintColor = .black
     }
 
     // MARK: UISceneSession Lifecycle

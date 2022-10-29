@@ -7,9 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED14336C290CFD8F00341CD8 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED14336B290CFD8F00341CD8 /* MainTabBarController.swift */; };
+		ED143372290CFF5300341CD8 /* AdvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED143370290CFF5300341CD8 /* AdvertViewController.swift */; };
+		ED143373290CFF5300341CD8 /* AdvertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED143371290CFF5300341CD8 /* AdvertViewController.xib */; };
+		ED143376290CFF6200341CD8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED143374290CFF6200341CD8 /* CameraViewController.swift */; };
+		ED143377290CFF6200341CD8 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED143375290CFF6200341CD8 /* CameraViewController.xib */; };
+		ED14337A290CFF7000341CD8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED143378290CFF7000341CD8 /* ProfileViewController.swift */; };
+		ED14337B290CFF7000341CD8 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED143379290CFF7000341CD8 /* ProfileViewController.xib */; };
+		ED1433A8290D09E500341CD8 /* CeksatAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1433A7290D09E500341CD8 /* CeksatAPI.framework */; };
+		ED1433A9290D09E500341CD8 /* CeksatAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED1433A7290D09E500341CD8 /* CeksatAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ED1433AF290D0AFE00341CD8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433AE290D0AFE00341CD8 /* Product.swift */; };
+		ED1433B2290D0BCA00341CD8 /* AdvertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433B1290D0BCA00341CD8 /* AdvertViewModel.swift */; };
+		ED1433BA290D1DEB00341CD8 /* AdvertViewController+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433B9290D1DEA00341CD8 /* AdvertViewController+UITableViewDelegate.swift */; };
+		ED1433BC290D1E0F00341CD8 /* AdvertViewController+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433BB290D1E0F00341CD8 /* AdvertViewController+UITableViewDataSource.swift */; };
+		ED1433C1290D28EA00341CD8 /* InitialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433C0290D28EA00341CD8 /* InitialViewModel.swift */; };
+		ED1433C4290D298200341CD8 /* RealmReacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433C3290D298200341CD8 /* RealmReacheable.swift */; };
+		ED1433C7290D2A4D00341CD8 /* ProductEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433C6290D2A4D00341CD8 /* ProductEntity.swift */; };
+		ED1433C9290D2AFF00341CD8 /* RatingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1433C8290D2AFF00341CD8 /* RatingEntity.swift */; };
 		ED1829892903C3AE00127CA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1829882903C3AE00127CA4 /* AppDelegate.swift */; };
 		ED18298B2903C3AE00127CA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18298A2903C3AE00127CA4 /* SceneDelegate.swift */; };
-		ED18298D2903C3AE00127CA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18298C2903C3AE00127CA4 /* ViewController.swift */; };
+		ED18298D2903C3AE00127CA4 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18298C2903C3AE00127CA4 /* InitialViewController.swift */; };
 		ED1829902903C3AE00127CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED18298E2903C3AE00127CA4 /* Main.storyboard */; };
 		ED1829922903C3AF00127CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1829912903C3AF00127CA4 /* Assets.xcassets */; };
 		ED1829952903C3AF00127CA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1829932903C3AF00127CA4 /* LaunchScreen.storyboard */; };
@@ -30,6 +47,10 @@
 		EDD8CFF32903D13000A84A5D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8CFF22903D13000A84A5D /* OnboardingView.swift */; };
 		EDD8CFF62903D14700A84A5D /* OnboardingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDD8CFF52903D14700A84A5D /* OnboardingView.xib */; };
 		EDD8CFFA2903F5B700A84A5D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8CFF82903F5B700A84A5D /* AuthViewController.swift */; };
+		EDD95D2429051F8B00308FA4 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EDD95D2329051F8B00308FA4 /* IQKeyboardManagerSwift */; };
+		EDD95D272905317B00308FA4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EDD95D262905317B00308FA4 /* RealmSwift */; };
+		EDD95D2A2905325800308FA4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD95D292905325800308FA4 /* User.swift */; };
+		EDD95D2D290534A500308FA4 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD95D2C290534A500308FA4 /* AuthViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,11 +70,41 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		ED1433AA290D09E500341CD8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ED1433A9290D09E500341CD8 /* CeksatAPI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		ED14336B290CFD8F00341CD8 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		ED143370290CFF5300341CD8 /* AdvertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertViewController.swift; sourceTree = "<group>"; };
+		ED143371290CFF5300341CD8 /* AdvertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvertViewController.xib; sourceTree = "<group>"; };
+		ED143374290CFF6200341CD8 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		ED143375290CFF6200341CD8 /* CameraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		ED143378290CFF7000341CD8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		ED143379290CFF7000341CD8 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		ED1433A7290D09E500341CD8 /* CeksatAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CeksatAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1433AE290D0AFE00341CD8 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		ED1433B1290D0BCA00341CD8 /* AdvertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertViewModel.swift; sourceTree = "<group>"; };
+		ED1433B9290D1DEA00341CD8 /* AdvertViewController+UITableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdvertViewController+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		ED1433BB290D1E0F00341CD8 /* AdvertViewController+UITableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdvertViewController+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		ED1433C0290D28EA00341CD8 /* InitialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewModel.swift; sourceTree = "<group>"; };
+		ED1433C3290D298200341CD8 /* RealmReacheable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmReacheable.swift; sourceTree = "<group>"; };
+		ED1433C6290D2A4D00341CD8 /* ProductEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductEntity.swift; sourceTree = "<group>"; };
+		ED1433C8290D2AFF00341CD8 /* RatingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingEntity.swift; sourceTree = "<group>"; };
 		ED1829852903C3AE00127CA4 /* Ceksat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ceksat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1829882903C3AE00127CA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED18298A2903C3AE00127CA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED18298C2903C3AE00127CA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED18298C2903C3AE00127CA4 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		ED18298F2903C3AE00127CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED1829912903C3AF00127CA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED1829942903C3AF00127CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +127,8 @@
 		EDD8CFF22903D13000A84A5D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		EDD8CFF52903D14700A84A5D /* OnboardingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingView.xib; sourceTree = "<group>"; };
 		EDD8CFF82903F5B700A84A5D /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		EDD95D292905325800308FA4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EDD95D2C290534A500308FA4 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +136,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1433A8290D09E500341CD8 /* CeksatAPI.framework in Frameworks */,
+				EDD95D272905317B00308FA4 /* RealmSwift in Frameworks */,
 				ED4576452903FE3E00ED4E61 /* SnapKit in Frameworks */,
+				EDD95D2429051F8B00308FA4 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +160,135 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED143369290CFCF700341CD8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				ED14336A290CFD2300341CD8 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		ED14336A290CFD2300341CD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED14336B290CFD8F00341CD8 /* MainTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED14336D290CFEE200341CD8 /* Adverts */ = {
+			isa = PBXGroup;
+			children = (
+				ED1433B0290D0BBA00341CD8 /* ViewModel */,
+				ED1433AD290D0ADD00341CD8 /* Model */,
+				ED1433AC290D0AD700341CD8 /* Controller */,
+				ED1433AB290D0ACF00341CD8 /* View */,
+			);
+			path = Adverts;
+			sourceTree = "<group>";
+		};
+		ED14336E290CFF0800341CD8 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				ED143374290CFF6200341CD8 /* CameraViewController.swift */,
+				ED143375290CFF6200341CD8 /* CameraViewController.xib */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		ED14336F290CFF1100341CD8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				ED143378290CFF7000341CD8 /* ProfileViewController.swift */,
+				ED143379290CFF7000341CD8 /* ProfileViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		ED1433A6290D09E500341CD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED1433A7290D09E500341CD8 /* CeksatAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED1433AB290D0ACF00341CD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED143371290CFF5300341CD8 /* AdvertViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED1433AC290D0AD700341CD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED143370290CFF5300341CD8 /* AdvertViewController.swift */,
+				ED1433B9290D1DEA00341CD8 /* AdvertViewController+UITableViewDelegate.swift */,
+				ED1433BB290D1E0F00341CD8 /* AdvertViewController+UITableViewDataSource.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED1433AD290D0ADD00341CD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED1433AE290D0AFE00341CD8 /* Product.swift */,
+			);
+			name = Model;
+			path = ../../../../CeksatAPI/CeksatAPI/Model;
+			sourceTree = "<group>";
+		};
+		ED1433B0290D0BBA00341CD8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ED1433B1290D0BCA00341CD8 /* AdvertViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ED1433BD290D28AA00341CD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED18298C2903C3AE00127CA4 /* InitialViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED1433BE290D28C200341CD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED18298E2903C3AE00127CA4 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED1433BF290D28C900341CD8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ED1433C0290D28EA00341CD8 /* InitialViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ED1433C2290D296900341CD8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				ED1433C3290D298200341CD8 /* RealmReacheable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		ED1433C5290D2A3000341CD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED1433C6290D2A4D00341CD8 /* ProductEntity.swift */,
+				ED1433C8290D2AFF00341CD8 /* RatingEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		ED18297C2903C3AE00127CA4 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +296,7 @@
 				ED18299E2903C3AF00127CA4 /* CeksatTests */,
 				ED1829A82903C3AF00127CA4 /* CeksatUITests */,
 				ED1829862903C3AE00127CA4 /* Products */,
+				ED1433A6290D09E500341CD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +352,10 @@
 		ED1829B92903C43E00127CA4 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				ED14336F290CFF1100341CD8 /* Profile */,
+				ED14336E290CFF0800341CD8 /* Camera */,
+				ED14336D290CFEE200341CD8 /* Adverts */,
+				ED143369290CFCF700341CD8 /* Main */,
 				EDD8CFF72903F5A300A84A5D /* Auth */,
 				ED1829BB2903CCFE00127CA4 /* Onboarding */,
 				ED1829BA2903C44700127CA4 /* Initial */,
@@ -176,8 +366,10 @@
 		ED1829BA2903C44700127CA4 /* Initial */ = {
 			isa = PBXGroup;
 			children = (
-				ED18298C2903C3AE00127CA4 /* ViewController.swift */,
-				ED18298E2903C3AE00127CA4 /* Main.storyboard */,
+				ED1433C5290D2A3000341CD8 /* Model */,
+				ED1433BF290D28C900341CD8 /* ViewModel */,
+				ED1433BE290D28C200341CD8 /* View */,
+				ED1433BD290D28AA00341CD8 /* Controller */,
 			);
 			path = Initial;
 			sourceTree = "<group>";
@@ -198,14 +390,6 @@
 				EDD8CFEF2903CD7100A84A5D /* OnboardingViewController.xib */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		ED8ED9A92903F5D8005EE518 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				EDD8CFF82903F5B700A84A5D /* AuthViewController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		ED8ED9AA2903F66F005EE518 /* SignIn */ = {
@@ -238,6 +422,7 @@
 		ED8ED9B72903F704005EE518 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				ED1433C2290D296900341CD8 /* Protocols */,
 				ED8ED9B42903F6E9005EE518 /* CSKit */,
 			);
 			path = Core;
@@ -272,7 +457,8 @@
 		EDD8CFF72903F5A300A84A5D /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				ED8ED9A92903F5D8005EE518 /* Controller */,
+				EDD95D282905323300308FA4 /* Model */,
+				EDD95D2B2905349000308FA4 /* ViewModel */,
 				EDD8CFFC2903F5BB00A84A5D /* View */,
 			);
 			path = Auth;
@@ -284,8 +470,25 @@
 				ED8ED9AB2903F674005EE518 /* SignUp */,
 				ED8ED9AA2903F66F005EE518 /* SignIn */,
 				ED8ED9A72903F5D5005EE518 /* AuthViewController.xib */,
+				EDD8CFF82903F5B700A84A5D /* AuthViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		EDD95D282905323300308FA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDD95D292905325800308FA4 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDD95D2B2905349000308FA4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EDD95D2C290534A500308FA4 /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +501,7 @@
 				ED1829812903C3AE00127CA4 /* Sources */,
 				ED1829822903C3AE00127CA4 /* Frameworks */,
 				ED1829832903C3AE00127CA4 /* Resources */,
+				ED1433AA290D09E500341CD8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -306,6 +510,8 @@
 			name = Ceksat;
 			packageProductDependencies = (
 				ED4576442903FE3E00ED4E61 /* SnapKit */,
+				EDD95D2329051F8B00308FA4 /* IQKeyboardManagerSwift */,
+				EDD95D262905317B00308FA4 /* RealmSwift */,
 			);
 			productName = Ceksat;
 			productReference = ED1829852903C3AE00127CA4 /* Ceksat.app */;
@@ -381,6 +587,8 @@
 			mainGroup = ED18297C2903C3AE00127CA4;
 			packageReferences = (
 				ED4576432903FE3D00ED4E61 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				EDD95D2229051F8B00308FA4 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				EDD95D252905317B00308FA4 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = ED1829862903C3AE00127CA4 /* Products */;
 			projectDirPath = "";
@@ -398,10 +606,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED143373290CFF5300341CD8 /* AdvertViewController.xib in Resources */,
 				ED1829952903C3AF00127CA4 /* LaunchScreen.storyboard in Resources */,
 				ED1829922903C3AF00127CA4 /* Assets.xcassets in Resources */,
 				ED8ED9B32903F6AD005EE518 /* SignInView.xib in Resources */,
 				ED8ED9BC2903F85E005EE518 /* CSTextView.xib in Resources */,
+				ED143377290CFF6200341CD8 /* CameraViewController.xib in Resources */,
+				ED14337B290CFF7000341CD8 /* ProfileViewController.xib in Resources */,
 				ED8ED9B12903F6A3005EE518 /* SignUpView.xib in Resources */,
 				ED1829902903C3AE00127CA4 /* Main.storyboard in Resources */,
 				EDD8CFF62903D14700A84A5D /* OnboardingView.xib in Resources */,
@@ -431,16 +642,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED18298D2903C3AE00127CA4 /* ViewController.swift in Sources */,
+				ED1433B2290D0BCA00341CD8 /* AdvertViewModel.swift in Sources */,
+				ED18298D2903C3AE00127CA4 /* InitialViewController.swift in Sources */,
 				ED8ED9AD2903F68A005EE518 /* SignInView.swift in Sources */,
+				ED1433BC290D1E0F00341CD8 /* AdvertViewController+UITableViewDataSource.swift in Sources */,
 				ED1829892903C3AE00127CA4 /* AppDelegate.swift in Sources */,
 				ED18298B2903C3AE00127CA4 /* SceneDelegate.swift in Sources */,
 				ED8ED9AF2903F698005EE518 /* SignUpView.swift in Sources */,
+				ED1433C9290D2AFF00341CD8 /* RatingEntity.swift in Sources */,
+				ED1433C7290D2A4D00341CD8 /* ProductEntity.swift in Sources */,
+				ED1433AF290D0AFE00341CD8 /* Product.swift in Sources */,
+				ED1433C1290D28EA00341CD8 /* InitialViewModel.swift in Sources */,
+				ED1433C4290D298200341CD8 /* RealmReacheable.swift in Sources */,
+				ED1433BA290D1DEB00341CD8 /* AdvertViewController+UITableViewDelegate.swift in Sources */,
 				EDD8CFF32903D13000A84A5D /* OnboardingView.swift in Sources */,
+				ED14337A290CFF7000341CD8 /* ProfileViewController.swift in Sources */,
 				EDD8CFFA2903F5B700A84A5D /* AuthViewController.swift in Sources */,
+				ED14336C290CFD8F00341CD8 /* MainTabBarController.swift in Sources */,
+				ED143372290CFF5300341CD8 /* AdvertViewController.swift in Sources */,
 				ED8ED9B62903F701005EE518 /* CSView.swift in Sources */,
+				EDD95D2D290534A500308FA4 /* AuthViewModel.swift in Sources */,
+				ED143376290CFF6200341CD8 /* CameraViewController.swift in Sources */,
 				ED1829BF2903CD4C00127CA4 /* OnboardingViewController.swift in Sources */,
 				ED8ED9B92903F844005EE518 /* CSTextView.swift in Sources */,
+				EDD95D2A2905325800308FA4 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -788,6 +1013,24 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		EDD95D2229051F8B00308FA4 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 7.0.0;
+				minimumVersion = 6.0.0;
+			};
+		};
+		EDD95D252905317B00308FA4 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 11.0.0;
+				minimumVersion = 10.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -795,6 +1038,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = ED4576432903FE3D00ED4E61 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		EDD95D2329051F8B00308FA4 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDD95D2229051F8B00308FA4 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		EDD95D262905317B00308FA4 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDD95D252905317B00308FA4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

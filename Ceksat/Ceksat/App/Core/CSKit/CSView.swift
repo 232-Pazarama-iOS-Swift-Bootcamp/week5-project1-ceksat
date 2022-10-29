@@ -21,7 +21,7 @@ class CSView: UIView {
         commonInit()
     }
     
-    private func commonInit() {
+    func commonInit() {
         Bundle.main.loadNibNamed(String(describing: Self.self), owner: self)
         addSubview(contentView)
         contentView.frame = bounds
